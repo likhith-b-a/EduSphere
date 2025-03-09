@@ -34,8 +34,8 @@ A full-featured **E-Learning Platform** built using the **MERN stack**, providin
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/likhith-b-a/e-learning-platform.git
-cd e-learning-platform
+git clone https://github.com/likhith-b-a/EduSphere.git
+cd EduSphere
 ```
 
 ### 2️⃣ Install Dependencies
