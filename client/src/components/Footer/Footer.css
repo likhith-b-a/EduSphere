@@ -1,0 +1,38 @@
+
+.footer {
+  background-color: #112A77; /* Deep blue */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.footer-left {
+  font-weight: bold;
+  color: #FFD700; /* Yellow for "MyApp" */
+}
+
+.footer-center a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-center a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  font-size: 12px;
+}

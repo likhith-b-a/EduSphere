@@ -1,0 +1,59 @@
+.course-study-page {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+  min-height: 79vh;
+}
+
+.course-study-video-section {
+  flex: 3;
+}
+
+.course-study-video-section .course-study-lecture-details {
+  margin-top: 1rem;
+}
+
+.course-study-lecture-list-section {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-study-lecture-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-study-lecture-item {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.course-study-lecture-item:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.course-study-lecture-item.active {
+  background: #28a745;
+  color: #fff;
+  font-weight: bold;
+}
+
+.progress {
+  width: 20%;
+  background-color: #333;
+  padding: 6px;
+  border-radius: 5px;
+  margin: 3px auto;
+  text-align: center;
+  color: white;
+}

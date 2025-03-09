@@ -1,0 +1,117 @@
+/* General Container Styling */
+.my-learning-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.my-learning-page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.my-learning-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Learning Card Styling */
+.my-learning-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.my-learning-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.my-learning-image-container {
+  height: 14rem;
+  weight: 12rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.my-learning-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-bottom: 1px solid #ddd;
+}
+
+.my-learning-content {
+  padding: 1rem;
+}
+
+.my-learning-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.my-learning-instructor {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Progress Bar */
+.my-learning-progress-container {
+  margin-bottom: 1rem;
+}
+
+.my-learning-progress-text {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.my-learning-progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.my-learning-progress {
+  height: 100%;
+  background: linear-gradient(135deg, #28a745, #218838);
+  transition: width 0.3s ease;
+}
+
+/* Rating Section */
+.my-learning-rating-container {
+  font-size: 0.9rem;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.my-learning-rating-container p {
+  margin: 0;
+  color: #333;
+}
+
+/* No Courses Text */
+.my-learning-no-courses {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+}

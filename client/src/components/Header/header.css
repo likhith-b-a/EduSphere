@@ -1,0 +1,63 @@
+/* General Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e2a78;
+  color: #f4f4f4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    /* Logo Styling */
+    .logo h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #ffcc00; /* Bright yellow logo text */
+    }
+
+    @media (max-width: 768px) {
+        align-items: flex-start;
+        padding: 1rem;
+    }
+}
+
+
+/* Navigation Menu Styling */
+.nav {
+  display: flex;
+  gap: 2rem; /* More space between links */
+  margin: 0;
+  padding: 0;
+  
+  a {
+    text-decoration: none; /* Remove underline */
+    color: #f4f4f4; /* Light gray default color */
+    font-weight: 600; /* Semi-bold text */
+    transition: 0.3s; /* Smooth transition */
+    padding: 0.6rem 1.2rem; /* Adjust padding for clickable area */
+    border-radius: 6px; /* Rounded corners */
+    background-color: transparent; /* Transparent background by default */
+    position: relative;
+
+    &:hover {
+      color: #1e2a78; /* Deep blue text color on hover */
+      background-color: #ffcc00; /* Bright yellow background on hover */
+    }
+
+    &:active {
+      color: #1e2a78; /* Deep blue text color for active link */
+      background-color: #ffcc00; /* Highlight active link with yellow */
+      border-bottom: 4px solid #c19a00; /* Golden accent for active tab */
+      padding-bottom: calc(0.6rem - 4px); /* Adjust padding to align underline */
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    gap: 0.5rem;
+  }
+
+}
+
+

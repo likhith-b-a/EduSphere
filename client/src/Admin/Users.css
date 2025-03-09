@@ -1,0 +1,84 @@
+/* General Layout */
+.admin-user-management-page {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.admin-user-management-title {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+/* Table Container */
+.admin-user-management-table-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table */
+.admin-user-management-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.admin-user-management-table th,
+.admin-user-management-table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+.admin-user-management-table th {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+}
+
+.admin-user-management-table td {
+  color: #555;
+}
+
+/* Row Hover Effect */
+.admin-user-management-row:hover {
+  background-color: #f1f1f1;
+}
+
+/* Select Input */
+.admin-user-management-select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.admin-user-management-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Delete Button */
+.admin-user-management-delete-button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admin-user-management-delete-button:hover {
+  background-color: #c82333;
+}
